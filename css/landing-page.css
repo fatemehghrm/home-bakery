@@ -1,0 +1,208 @@
+@font-face {
+    font-family: geranpaye;
+    src: url("../fonts/Digi-Gran-Payeh-Boldwww.digifonts.ir_/Digi\ Gran\ Payeh\ Bold.ttf") format("truetype"),
+        url("../fonts/Digi-Gran-Payeh-Boldwww.digifonts.ir_/Digi\ Gran\ Payeh\ Bold.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: negar;
+    src: url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.ttf") format("truetype"),
+        url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(65, 25, 10);
+}
+
+.main {
+    padding-top: 25px;
+    position: relative;
+    font-family: negar;
+}
+
+.board {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.photo {
+    left: 0px;
+    width: 840px;
+    height: 300px;
+    border-radius: 3px 150px 150px 3px;
+}
+
+.photo img {
+    position: absolute;
+    height: 300px;
+    padding: 15px 0px;
+}
+
+.photo #one {
+    left: 0px;
+    margin-left: 15px;
+}
+
+.photo #two {
+    left: 0px;
+    margin-left: 285px;
+}
+
+.photo #three {
+    right: 0px;
+    margin-right: 15px;
+    border-radius: 0px 135px 135px 0px;
+}
+
+.name {
+    right: 0px;
+    width: 300px;
+    height: 80px;
+    border-radius: 40px 3px 3px 40px;
+    font-family: 'Mochiy Pop One';
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(228, 184, 129);
+}
+
+.menu :hover {
+    font-size: 34px;
+}
+
+
+.menu {
+    margin-top: 325px;
+    left: 0px;
+    width: 400px;
+    height: 100px;
+    border-radius: 3px 50px 50px 3px;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 184, 129);
+    font-size: 30px;
+}
+
+.test {
+    margin-top: 525px;
+    left: 0px;
+    width: 650px;
+    height: 300px;
+    border-radius: 3px 150px 150px 3px;
+    padding: 50px;
+}
+
+
+.test h3 {
+    font-size: 25px;
+    color: rgb(228, 184, 129);
+    margin: 25px;
+}
+
+.test .link {
+    margin-right: 250px;
+}
+
+.link :hover {
+    font-size: 34px;
+}
+
+
+.welcometext {
+    margin-top: 325px;
+    right: 0px;
+    width: 500px;
+    height: 300px;
+    border-radius: 150px 3px 3px 150px;
+}
+
+.welcometext h3 {
+    display: inline-block;
+    width: 175px;
+    margin: 25px 15px;
+    font-size: 20px;
+    color: rgb(228, 184, 129);
+}
+
+
+.welcometext img {
+    position: absolute;
+    left: 0px;
+    margin: 25px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.weight {
+    margin-top: 775px;
+    right: 0px;
+    width: 550px;
+    height: 300px;
+    border-radius: 150px 3px 3px 150px;
+    font-size: 30px;
+    color: rgb(228, 184, 129);
+    padding: 15px 50px;
+}
+
+.order {
+    margin-top: 1000px;
+    left: 0px;
+    width: 600px;
+    height: 300px;
+    border-radius: 3px 150px 150px 3px;
+    font-size: 25px;
+    color: rgb(228, 184, 129);
+    padding: 15px 0px;
+    padding-right: 90px;
+}
+
+.aboutus {
+    margin-top: 1300px;
+    right: 0px;
+    width: 600px;
+    height: 250px;
+    border-radius: 125px 3px 3px 125px;
+    font-size: 25px;
+    color: rgb(228, 184, 129);
+    padding: 60px 20px;
+}
+
+.socialmedia {
+    margin-top: 1500px;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 3px 100px 100px 3px;
+    font-size: 25px;
+    color: rgb(228, 184, 129);
+    padding: 60px 20px;
+
+}
+
+.socialmedia .tel,
+.socialmedia .inesta {
+    margin-right: 75px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+
+}
+
+.tel p,
+.inesta p {
+    margin-top: -5px;
+    margin-right: 15px;
+}

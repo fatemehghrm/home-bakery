@@ -1,0 +1,149 @@
+@font-face {
+    font-family: negar;
+    src: url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.ttf") format("truetype"),
+        url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: negar;
+    src: url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.ttf") format("truetype"),
+        url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(220, 200, 160);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    padding-top: 15px;
+    position: relative;
+    width: 120px;
+}
+
+
+.nav button {
+    position: fixed;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px 40px 40px 3px;
+    left: 0px;
+    width: 100px;
+    height: 60px;
+    font-family: negar;
+    font-size: 18px;
+}
+
+
+.nav #a button {
+    margin-top: 65px;
+}
+
+.nav #b button {
+    margin-top: 130px;
+}
+
+.nav #c button {
+    margin-top: 195px;
+}
+
+
+.nav #d button {
+    margin-top: 260px;
+}
+
+
+.nav #e button {
+    margin-top: 325px;
+}
+
+
+.nav #f button {
+    margin-top: 390px;
+}
+
+.nav a :hover {
+    background-color: rgb(65, 25, 10, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+}
+
+.main {
+    padding: 25px 50px;
+    position: relative;
+    font-family: negar;
+    margin-left: 120px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.continer h2 {
+    text-align: right;
+    font-weight: bold;
+    margin: 30px 40px;
+    font-size: 30px;
+}
+
+.continer {
+    position: relative;
+    margin-top: 150px;
+}
+
+.spongecake {
+    margin-top: 50px;
+}
+
+.item {
+    display: inline-block;
+    margin: 25px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.box img {
+    width: 237px;
+    height: 237px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.text {
+    width: 250px;
+    height: 75px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+}

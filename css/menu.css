@@ -1,0 +1,701 @@
+@font-face {
+    font-family: negar;
+    src: url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.ttf") format("truetype"),
+        url("../fonts/Digi-Negare-Boldwww.digifonts.ir_/Digi\ Negare\ Bold.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(220, 200, 160);
+}
+
+.nav {
+    padding-top: 15px;
+    position: relative;
+    width: 120px;
+}
+
+.main {
+    padding-top: 25px;
+    position: relative;
+    font-family: negar;
+    margin-left: 120px;
+    height: 30800px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav button {
+    position: fixed;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px 40px 40px 3px;
+    left: 0px;
+    width: 100px;
+    height: 60px;
+    font-family: negar;
+    font-size: 18px;
+}
+
+
+.nav #a button {
+    margin-top: 65px;
+}
+
+.nav #b button {
+    margin-top: 130px;
+}
+
+.nav #c button {
+    margin-top: 195px;
+}
+
+
+.nav #d button {
+    margin-top: 260px;
+}
+
+
+.nav #e button {
+    margin-top: 325px;
+}
+
+
+.nav #f button {
+    margin-top: 390px;
+}
+
+.nav a :hover {
+    background-color: rgb(65, 25, 10, 0.5);
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+}
+
+
+
+.box {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 150px 3px 3px 150px;
+    right: 0px;
+    height: 300px;
+    padding: 15px;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.box :first-child {
+    border-radius: 150px 10px 10px 150px;
+}
+
+.continer h2 {
+    text-align: right;
+    font-weight: bold;
+    margin: 30px 40px;
+    font-size: 30px;
+}
+
+.cake {
+    position: relative;
+    height: 21050px;
+}
+
+.box2 {
+    margin-top: 350px;
+}
+
+.box3 {
+    margin-top: 700px;
+}
+
+.box4 {
+    margin-top: 1050px;
+}
+
+.box5 {
+    margin-top: 1400px;
+}
+
+
+.box6 {
+    margin-top: 1750px;
+}
+
+
+.box7 {
+    margin-top: 2100px;
+}
+
+
+.box8 {
+    margin-top: 2450px;
+}
+
+
+.box9 {
+    margin-top: 2800px;
+}
+
+.box10 {
+
+    margin-top: 3150px;
+}
+
+.box11 {
+    margin-top: 3500px;
+}
+
+.box12 {
+    margin-top: 3850px;
+}
+
+.box13 {
+    margin-top: 4200px;
+}
+
+.box14 {
+    margin-top: 4550px;
+}
+
+.box15 {
+    margin-top: 4900px;
+}
+
+.box16 {
+    margin-top: 5250px;
+}
+
+.box17 {
+    margin-top: 5600px;
+}
+
+.box18 {
+    margin-top: 5950px;
+}
+
+.box19 {
+    margin-top: 6300px;
+}
+
+.box20 {
+    margin-top: 6650px;
+}
+
+.box21 {
+    margin-top: 7000px;
+}
+
+
+.box22 {
+    margin-top: 7350px;
+}
+
+
+.box23 {
+    margin-top: 7700px;
+}
+
+
+.box24 {
+    margin-top: 8050px;
+}
+
+
+.box25 {
+    margin-top: 8400px;
+}
+
+
+.box26 {
+    margin-top: 8750px;
+}
+
+
+.box27 {
+    margin-top: 9100px;
+}
+
+
+.box28 {
+    margin-top: 9450px;
+}
+
+.box29 {
+    margin-top: 9800px;
+}
+
+.box30 {
+    margin-top: 10150px;
+}
+
+.box31 {
+    margin-top: 10500px;
+}
+
+.box32 {
+    margin-top: 10850px;
+}
+
+
+.box33 {
+    margin-top: 11200px;
+}
+
+
+.box34 {
+    margin-top: 11550px;
+}
+
+
+.box35 {
+    margin-top: 11900px;
+}
+
+
+.box36 {
+    margin-top: 12250px;
+}
+
+
+.box37 {
+    margin-top: 12600px;
+}
+
+
+.box38 {
+    margin-top: 12950px;
+}
+
+
+.box39 {
+    margin-top: 13300px;
+}
+
+
+.box40 {
+    margin-top: 13650px;
+}
+
+.box41 {
+    margin-top: 14000px;
+}
+
+
+.box42 {
+    margin-top: 14350px;
+}
+
+
+.box43 {
+    margin-top: 14700px;
+}
+
+
+.box44 {
+    margin-top: 15050px;
+}
+
+
+.box45 {
+    margin-top: 15400px;
+}
+
+
+.box46 {
+    margin-top: 15750px;
+}
+
+
+.box47 {
+    margin-top: 16100px;
+}
+
+
+.box48 {
+    margin-top: 16450px;
+}
+
+
+.box49 {
+    margin-top: 16800px;
+}
+
+
+.box50 {
+    margin-top: 17150px;
+}
+
+.box51 {
+    margin-top: 17500px;
+}
+
+
+.box52 {
+    margin-top: 17850px;
+}
+
+
+.box53 {
+    margin-top: 18200px;
+}
+
+
+.box54 {
+    margin-top: 18550px;
+}
+
+
+.box55 {
+    margin-top: 18900px;
+}
+
+
+.box56 {
+    margin-top: 19250px;
+}
+
+
+.box57 {
+    margin-top: 19600px;
+}
+
+
+.box58 {
+    margin-top: 19950px;
+}
+
+
+.box59 {
+    margin-top: 20300px;
+}
+
+
+.box60 {
+    margin-top: 20650px;
+}
+
+.cupcake {
+    position: relative;
+    height: 4250px;
+}
+
+.mugcake {
+    position: relative;
+    height: 1450px;
+}
+
+.shutcake {
+    position: relative;
+    height: 1800px;
+}
+
+.rejimi {
+    position: relative;
+    height: 800px;
+}
+
+.text {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px 100px 100px 3px;
+    left: 0px;
+    height: 200px;
+    padding: 60px 25px;
+    text-align: right;
+}
+
+
+
+.main #one {
+    width: 700px;
+}
+
+.main #two {
+    width: 425px;
+}
+
+.text1 {
+    margin-top: 50px;
+}
+
+.text2 {
+    margin-top: 400px;
+}
+
+.text3 {
+    margin-top: 750px;
+}
+
+.text4 {
+    margin-top: 1100px;
+}
+
+.text5 {
+    margin-top: 1450px;
+}
+
+.text6 {
+    margin-top: 1800px;
+}
+
+.text7 {
+    margin-top: 2150px;
+}
+
+.text8 {
+    margin-top: 2500px;
+}
+
+.text9 {
+    margin-top: 2850px;
+}
+
+.text10 {
+    margin-top: 3200px;
+}
+
+.text11 {
+    margin-top: 3550px;
+}
+
+.text12 {
+    margin-top: 3900px;
+}
+
+.text13 {
+    margin-top: 4250px;
+}
+
+.text14 {
+    margin-top: 4600px;
+}
+
+.text15 {
+    margin-top: 4950px;
+}
+
+.text16 {
+    margin-top: 5300px;
+}
+
+.text17 {
+    margin-top: 5650px;
+}
+
+
+.text18 {
+    margin-top: 6000px;
+}
+
+.text19 {
+    margin-top: 6350px;
+}
+
+.text20 {
+    margin-top: 6700px;
+}
+
+.text21 {
+    margin-top: 7050px;
+}
+
+.text22 {
+    margin-top: 7400px;
+}
+
+.text23 {
+    margin-top: 7750px;
+}
+
+.text24 {
+    margin-top: 8100px;
+}
+
+.text25 {
+    margin-top: 8450px;
+}
+
+.text26 {
+    margin-top: 8800px;
+}
+
+.text27 {
+    margin-top: 9150px;
+}
+
+.text28 {
+    margin-top: 9500px;
+}
+
+.text29 {
+    margin-top: 9850px;
+}
+
+.text30 {
+    margin-top: 10200px;
+}
+
+.text31 {
+    margin-top: 10550px;
+}
+
+.text32 {
+    margin-top: 10900px;
+}
+
+.text33 {
+    margin-top: 11250px;
+}
+
+.text34 {
+    margin-top: 11600px;
+}
+
+.text35 {
+    margin-top: 11950px;
+}
+
+.text36 {
+    margin-top: 12300px;
+}
+
+.text37 {
+    margin-top: 12650px;
+}
+
+.text38 {
+    margin-top: 13000px;
+}
+
+.text39 {
+    margin-top: 13350px;
+}
+
+.text40 {
+    margin-top: 13700px;
+}
+
+.text41 {
+    margin-top: 14050px;
+}
+
+.text42 {
+    margin-top: 14400px;
+}
+
+.text43 {
+    margin-top: 14750px;
+}
+
+.text44 {
+    margin-top: 15100px;
+}
+
+.text45 {
+    margin-top: 15450px;
+}
+
+.text46 {
+    margin-top: 15800px;
+}
+
+.text47 {
+    margin-top: 16150px;
+}
+
+.text48 {
+    margin-top: 16500px;
+}
+
+.text49 {
+    margin-top: 16850px;
+}
+
+.text50 {
+    margin-top: 17200px;
+}
+
+.text51 {
+    margin-top: 17550px;
+}
+
+.text52 {
+    margin-top: 17900px;
+}
+
+.text53 {
+    margin-top: 18250px;
+}
+
+.text54 {
+    margin-top: 18600px;
+}
+
+.text55 {
+    margin-top: 18950px;
+}
+
+.text56 {
+    margin-top: 19300px;
+}
+
+.text57 {
+    margin-top: 19650px;
+}
+
+.text58 {
+    margin-top: 20000px;
+}
+
+.text59 {
+    margin-top: 20350px;
+}
+
+.text60 {
+    margin-top: 20700px;
+}
+
+.rejimi .text1{
+    display: flex;
+    flex-direction: column;
+}
+
+.rejimi .text1 h6,
+.rejimi .text1 h1,
+.rejimi .text1 p {
+    margin-left: 200px;
+    width: 175px;
+}
+
+.rejimi .text1 #odd {
+    position: absolute;
+    display: inline-block;
+    margin-top: -25px;
+    width: 170px;
+    left: 0px;
+    margin-left: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.358);
+    padding: 0px 10px;
+}
