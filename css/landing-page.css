@@ -21,13 +21,13 @@ body {
     background-color: rgb(65, 25, 10);
 }
 
-.main {
+main {
     padding-top: 25px;
     position: relative;
     font-family: negar;
 }
 
-.board {
+board {
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
@@ -201,8 +201,8 @@ a {
 
 }
 
-.tel p,
-.inesta p {
+.tel .link,
+.inesta .link {
     margin-top: -5px;
     margin-right: 15px;
 }
