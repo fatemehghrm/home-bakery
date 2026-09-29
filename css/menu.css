@@ -83,7 +83,7 @@ nav a :hover {
 
 
 
-.box {
+box {
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
@@ -104,11 +104,11 @@ img {
 }
 
 
-.box :first-child {
+box :first-child {
     border-radius: 150px 10px 10px 150px;
 }
 
-.continer h2 {
+.container h2 {
     text-align: right;
     font-weight: bold;
     margin: 30px 40px;
@@ -414,7 +414,7 @@ img {
     height: 800px;
 }
 
-.text {
+text {
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
