@@ -31,14 +31,14 @@ html {
     scroll-behavior: smooth;
 }
 
-.nav {
+nav {
     padding-top: 15px;
     position: relative;
     width: 120px;
 }
 
 
-.nav button {
+nav button {
     position: fixed;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
@@ -52,41 +52,41 @@ html {
 }
 
 
-.nav #a button {
+nav #a button {
     margin-top: 65px;
 }
 
-.nav #b button {
+nav #b button {
     margin-top: 130px;
 }
 
-.nav #c button {
+nav #c button {
     margin-top: 195px;
 }
 
 
-.nav #d button {
+nav #d button {
     margin-top: 260px;
 }
 
 
-.nav #e button {
+nav #e button {
     margin-top: 325px;
 }
 
 
-.nav #f button {
+nav #f button {
     margin-top: 390px;
 }
 
-.nav a :hover {
+nav a :hover {
     background-color: rgb(65, 25, 10, 0.5);
     font-size: 20px;
     font-weight: bold;
     width: 120px;
 }
 
-.main {
+main {
     padding: 25px 50px;
     position: relative;
     font-family: negar;
@@ -95,14 +95,14 @@ html {
 }
 
 
-.continer h2 {
+.container h2 {
     text-align: right;
     font-weight: bold;
     margin: 30px 40px;
     font-size: 30px;
 }
 
-.continer {
+.container {
     position: relative;
     margin-top: 150px;
 }
@@ -111,7 +111,7 @@ html {
     margin-top: 50px;
 }
 
-.item {
+item {
     display: inline-block;
     margin: 25px;
 }
